@@ -9,8 +9,8 @@
 </head>
 
 <body>
-  <header>
-    <div class="logo">
+  <header class="header">
+    <div class="header__logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="214" height="210" viewBox="0 0 214 210">
         <g fill="none" stroke-width="12">
           <path
@@ -19,36 +19,43 @@
             d="M115.122 194.336C115.527 193.897 115.927 193.455 116.319 193.009L153.69 169.521C182.93 151.143 191.451 112.997 172.598 84.3362C169.529 79.6722 163.25 78.3762 158.555 81.3272L121.425 104.664C118.17 100 114.303 95.6362 109.83 91.6843L66.4654 53.3677C61.8146 49.2582 54.6598 49.6021 50.4409 54.1641C22.9065 83.9378 25.2893 129.917 55.732 156.816L99.097 195.132C103.748 199.242 110.903 198.898 115.122 194.336Z" />
         </g>
       </svg>
-      <h1>Planned <br> Planthood</h1>
+      <h1 class="header__heading">Planned <br> Planthood</h1>
     </div>
 
-    <nav>
-      <ul>
-        <li><a href="#">Hem</a></li>
-        <li><a href="#">Historik</a></li>
-        <li><a href="#">Tips</a></li>
-        <li><a href="#">Kontakt</a></li>
+    <nav class="header__nav">
+      <ul class="header__links">
+        <li class="header__link"><a href="#">Hem</a></li>
+        <li class="header__link"><a href="#">Historik</a></li>
+        <li class="header__link"><a href="#">Tips</a></li>
+        <li class="header__link"><a href="#">Kontakt</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <header>
-      <h1>Uppskattade växter</h1>
+    <header class="gallery">
+      <h1 class="gallery__heading">Uppskattade växter</h1>
 
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</p>
+      <p class="gallery__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis
+        ipsum.</p>
 
-      <section>
-        <img src="./Assets/images/flower1.jpg" alt="A group of straight flowers, starting to bloom purple">
-        <img src="./Assets/images/flower2.jpg" alt="A bouquet of pink roses with a white background">
-        <img src="./Assets/images/flower3.jpg" alt="A set of blue flowers in a vase">
-        <img src="./Assets/images/flower4.jpg" alt="A white flower with a blurred background">
-        <img src="./Assets/images/flower5.jpg" alt="Several pots filled with small cacti of different species">
-        <img src="./Assets/images/flower6.jpg" alt="Two cherries with a teal background">
+      <section class="gallery__grid">
+        <img class="gallery__image gallery__image--1" src="./Assets/images/flower1.jpg"
+          alt="A group of straight flowers, starting to bloom purple">
+        <img class="gallery__image gallery__image--2" src="./Assets/images/flower2.jpg"
+          alt="A bouquet of pink roses with a white background">
+        <img class="gallery__image gallery__image--3" src="./Assets/images/flower3.jpg"
+          alt="A set of blue flowers in a vase">
+        <img class="gallery__image gallery__image--4" src="./Assets/images/flower4.jpg"
+          alt="A white flower with a blurred background">
+        <img class="gallery__image gallery__image--5" src="./Assets/images/flower5.jpg"
+          alt="Several pots filled with small cacti of different species">
+        <img class="gallery__image gallery__image--6" src="./Assets/images/flower6.jpg"
+          alt="Two cherries with a teal background">
       </section>
     </header>
 
-    <article>
+    <article class="newsletter">
       <h1>Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</h1>
 
       <section>
